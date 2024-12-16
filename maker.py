@@ -46,7 +46,7 @@ def generate_cards_to_csv(prefix, length, count, file_name):
             writer.writerow([formatted_card])
 
 # Configuration
-card_prefix = 9  # Card prefix (e.g., 4 for Visa)
+card_prefix = 8  # Card prefix (e.g., 4 for Visa)
 card_length = 16  # Card length (usually 16 digits)
 card_count = 10000  # Number of cards to generate
 output_file = f"valid_cards_{card_prefix}.csv"  # Output file name
