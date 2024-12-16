@@ -1,4 +1,4 @@
-# Valid Card Number Generator
+# Py Luhn Card Generator
 
 A Python script that generates valid card numbers using the [Luhn algorithm](https://en.wikipedia.org/wiki/Luhn_algorithm) and saves them in a CSV file. Each card number is formatted with dashes between every 4 digits for better readability (e.g., `1234-5678-1234-5678`).
 
@@ -24,5 +24,5 @@ Ensure you have the following installed on your system:
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/<your-username>/valid-card-generator.git
-   cd valid-card-generator
+   git clone https://github.com/6a6ak/Py_Luhn_Card_Generator.git
+   cd Py_Luhn_Card_Generator
